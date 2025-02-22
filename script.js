@@ -8,5 +8,5 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.getElementById("btn").addEventListener("click", () => {
-    window.location.href = "/newpage.html";
+    window.location.href = "/public/newpage.html";
 });
