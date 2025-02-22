@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-    res.sendFile("public/index.html", { root: "." });
+    res.sendFile("index.html", { root: "." });
 });
 
 app.get("/newpage", (req, res) => {
