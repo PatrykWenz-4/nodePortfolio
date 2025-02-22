@@ -1,0 +1,36 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+img {
+    width: 30rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

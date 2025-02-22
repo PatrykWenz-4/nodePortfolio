@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "rmdir /s /q build && mkdir build && xcopy /E /I public\\* build\\",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +15,8 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
-  
 }
