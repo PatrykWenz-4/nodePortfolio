@@ -8,5 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.getElementById("btn").addEventListener("click", () => {
-    window.location.href = "/public/newpage.html";
+    //window.location.href = "/public/newpage.html";
+    window.location.href = "https://patrykwenz-4.github.io/nodePortfolio/newpage.html";
+
 });
