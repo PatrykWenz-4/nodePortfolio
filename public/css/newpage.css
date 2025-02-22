@@ -110,4 +110,15 @@ body {
     border: none;
 }
 
+.container-hobby{
+    top: 30%;
+    left: 20%;
+    color: white;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5rem;
+    text-align: left;
+}
+
 
